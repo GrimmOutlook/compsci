@@ -11,6 +11,8 @@ const andOr = (integer1, integer2) => {
   console.log('binaryInteger2: ', binaryInteger2);
   console.log('integer2 complement: ', ~binaryInteger2);
 
+  console.log('will this work: ', (~-80).toString(2));
+
 }
 
 andOr(4545, 68923);
